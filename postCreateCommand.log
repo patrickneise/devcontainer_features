@@ -1,0 +1,185 @@
+
+added 3 packages, and audited 4 packages in 23s
+
+found 0 vulnerabilities
+  installed package shfmt-py 3.4.3.1, installed using Python 3.10.4
+  These apps are now globally available
+    - shfmt
+Collecting ray[default]
+  Downloading ray-2.2.0-cp310-cp310-manylinux2014_x86_64.whl (57.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.4/57.4 MB 4.8 MB/s eta 0:00:00
+Collecting pytest
+  Downloading pytest-7.2.0-py3-none-any.whl (316 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 316.8/316.8 kB 3.9 MB/s eta 0:00:00
+Collecting pytest-shell-utilities
+  Downloading pytest_shell_utilities-1.7.0-py3-none-any.whl (46 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.7/46.7 kB 4.1 MB/s eta 0:00:00
+Collecting tqdm
+  Downloading tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 kB 3.6 MB/s eta 0:00:00
+Collecting more_itertools
+  Downloading more_itertools-9.0.0-py3-none-any.whl (52 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.8/52.8 kB 3.9 MB/s eta 0:00:00
+Collecting devcontainer-contrib>=0.0.13
+  Downloading devcontainer_contrib-0.0.13-py3-none-any.whl (10 kB)
+Collecting msgpack<2.0.0,>=1.0.0
+  Downloading msgpack-1.0.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (316 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.0/317.0 kB 10.6 MB/s eta 0:00:00
+Collecting aiosignal
+  Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Requirement already satisfied: pyyaml in /home/codespace/.local/lib/python3.10/site-packages (from ray[default]->-r requirements-tests.txt (line 1)) (6.0)
+Collecting virtualenv>=20.0.24
+  Downloading virtualenv-20.17.1-py3-none-any.whl (8.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.8/8.8 MB 5.3 MB/s eta 0:00:00
+Requirement already satisfied: attrs in /home/codespace/.local/lib/python3.10/site-packages (from ray[default]->-r requirements-tests.txt (line 1)) (22.2.0)
+Collecting click>=7.0
+  Downloading click-8.1.3-py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.6/96.6 kB 3.7 MB/s eta 0:00:00
+Requirement already satisfied: requests in /home/codespace/.local/lib/python3.10/site-packages (from ray[default]->-r requirements-tests.txt (line 1)) (2.28.1)
+Collecting grpcio>=1.42.0
+  Downloading grpcio-1.51.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 4.9 MB/s eta 0:00:00
+Requirement already satisfied: packaging in /home/codespace/.local/lib/python3.10/site-packages (from ray[default]->-r requirements-tests.txt (line 1)) (22.0)
+Collecting filelock
+  Downloading filelock-3.9.0-py3-none-any.whl (9.7 kB)
+Requirement already satisfied: numpy>=1.19.3 in /home/codespace/.local/lib/python3.10/site-packages (from ray[default]->-r requirements-tests.txt (line 1)) (1.24.1)
+Requirement already satisfied: jsonschema in /home/codespace/.local/lib/python3.10/site-packages (from ray[default]->-r requirements-tests.txt (line 1)) (4.17.3)
+Collecting protobuf!=3.19.5,>=3.15.3
+  Downloading protobuf-4.21.12-cp37-abi3-manylinux2014_x86_64.whl (409 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 409.8/409.8 kB 4.5 MB/s eta 0:00:00
+Collecting frozenlist
+  Downloading frozenlist-1.3.3-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (149 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 149.6/149.6 kB 5.1 MB/s eta 0:00:00
+Collecting gpustat>=1.0.0
+  Downloading gpustat-1.0.0.tar.gz (90 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.5/90.5 kB 4.8 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting prometheus-client<0.14.0,>=0.7.1
+  Downloading prometheus_client-0.13.1-py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.1/57.1 kB 5.0 MB/s eta 0:00:00
+Collecting smart-open
+  Downloading smart_open-6.3.0-py3-none-any.whl (56 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.8/56.8 kB 3.6 MB/s eta 0:00:00
+Collecting aiohttp>=3.7
+  Downloading aiohttp-3.8.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 1.8 MB/s eta 0:00:00
+Collecting aiohttp-cors
+  Downloading aiohttp_cors-0.7.0-py3-none-any.whl (27 kB)
+Collecting colorful
+  Downloading colorful-0.5.5-py2.py3-none-any.whl (201 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 201.4/201.4 kB 4.6 MB/s eta 0:00:00
+Collecting py-spy>=0.2.0
+  Downloading py_spy-0.3.14-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl (3.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 5.0 MB/s eta 0:00:00
+Collecting pydantic
+  Downloading pydantic-1.10.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 5.1 MB/s eta 0:00:00
+Collecting opencensus
+  Downloading opencensus-0.11.0-py2.py3-none-any.whl (128 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.2/128.2 kB 3.3 MB/s eta 0:00:00
+Collecting iniconfig
+  Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting exceptiongroup>=1.0.0rc8
+  Downloading exceptiongroup-1.1.0-py3-none-any.whl (14 kB)
+Collecting pluggy<2.0,>=0.12
+  Downloading pluggy-1.0.0-py2.py3-none-any.whl (13 kB)
+Requirement already satisfied: tomli>=1.0.0 in /home/codespace/.local/lib/python3.10/site-packages (from pytest->-r requirements-tests.txt (line 2)) (2.0.1)
+Requirement already satisfied: typing-extensions in /home/codespace/.local/lib/python3.10/site-packages (from pytest-shell-utilities->-r requirements-tests.txt (line 3)) (4.4.0)
+Collecting pytest-helpers-namespace
+  Downloading pytest_helpers_namespace-2021.12.29-py3-none-any.whl (10 kB)
+Requirement already satisfied: psutil>=5.0.0 in /home/codespace/.local/lib/python3.10/site-packages (from pytest-shell-utilities->-r requirements-tests.txt (line 3)) (5.9.4)
+Collecting pytest-skip-markers
+  Downloading pytest_skip_markers-1.4.0-py3-none-any.whl (19 kB)
+Collecting easyfs[cookiecutter]==0.0.3
+  Downloading easyfs-0.0.3-py3-none-any.whl (2.4 kB)
+Collecting typer
+  Downloading typer-0.7.0-py3-none-any.whl (38 kB)
+Collecting fsspec
+  Downloading fsspec-2022.11.0-py3-none-any.whl (139 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 139.5/139.5 kB 4.5 MB/s eta 0:00:00
+Collecting flatdict
+  Downloading flatdict-4.0.1.tar.gz (8.3 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cookiecutter
+  Downloading cookiecutter-2.1.1-py2.py3-none-any.whl (36 kB)
+Collecting yarl<2.0,>=1.0
+  Downloading yarl-1.8.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (264 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 264.0/264.0 kB 7.5 MB/s eta 0:00:00
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-6.0.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (114 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 114.5/114.5 kB 3.9 MB/s eta 0:00:00
+Collecting async-timeout<5.0,>=4.0.0a3
+  Downloading async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
+Requirement already satisfied: charset-normalizer<3.0,>=2.0 in /home/codespace/.local/lib/python3.10/site-packages (from aiohttp>=3.7->ray[default]->-r requirements-tests.txt (line 1)) (2.1.1)
+Requirement already satisfied: six>=1.7 in /home/codespace/.local/lib/python3.10/site-packages (from gpustat>=1.0.0->ray[default]->-r requirements-tests.txt (line 1)) (1.16.0)
+Collecting nvidia-ml-py<=11.495.46,>=11.450.129
+  Downloading nvidia_ml_py-11.495.46-py3-none-any.whl (25 kB)
+Collecting blessed>=1.17.1
+  Downloading blessed-1.19.1-py2.py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.0/58.0 kB 4.1 MB/s eta 0:00:00
+Requirement already satisfied: platformdirs<3,>=2.4 in /home/codespace/.local/lib/python3.10/site-packages (from virtualenv>=20.0.24->ray[default]->-r requirements-tests.txt (line 1)) (2.6.2)
+Collecting distlib<1,>=0.3.6
+  Downloading distlib-0.3.6-py2.py3-none-any.whl (468 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 468.5/468.5 kB 17.0 MB/s eta 0:00:00
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /home/codespace/.local/lib/python3.10/site-packages (from jsonschema->ray[default]->-r requirements-tests.txt (line 1)) (0.19.3)
+Collecting google-api-core<3.0.0,>=1.0.0
+  Downloading google_api_core-2.11.0-py3-none-any.whl (120 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 120.3/120.3 kB 4.1 MB/s eta 0:00:00
+Collecting opencensus-context>=0.1.3
+  Downloading opencensus_context-0.1.3-py2.py3-none-any.whl (5.1 kB)
+Collecting distro
+  Downloading distro-1.8.0-py3-none-any.whl (20 kB)
+Requirement already satisfied: certifi>=2017.4.17 in /home/codespace/.local/lib/python3.10/site-packages (from requests->ray[default]->-r requirements-tests.txt (line 1)) (2022.12.7)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/codespace/.local/lib/python3.10/site-packages (from requests->ray[default]->-r requirements-tests.txt (line 1)) (1.26.13)
+Requirement already satisfied: idna<4,>=2.5 in /home/codespace/.local/lib/python3.10/site-packages (from requests->ray[default]->-r requirements-tests.txt (line 1)) (3.4)
+Requirement already satisfied: wcwidth>=0.1.4 in /home/codespace/.local/lib/python3.10/site-packages (from blessed>=1.17.1->gpustat>=1.0.0->ray[default]->-r requirements-tests.txt (line 1)) (0.2.5)
+Collecting googleapis-common-protos<2.0dev,>=1.56.2
+  Downloading googleapis_common_protos-1.57.1-py2.py3-none-any.whl (218 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 218.0/218.0 kB 5.0 MB/s eta 0:00:00
+Collecting google-auth<3.0dev,>=2.14.1
+  Downloading google_auth-2.15.0-py2.py3-none-any.whl (177 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 177.0/177.0 kB 4.8 MB/s eta 0:00:00
+Collecting binaryornot>=0.4.4
+  Downloading binaryornot-0.4.4-py2.py3-none-any.whl (9.0 kB)
+Requirement already satisfied: Jinja2<4.0.0,>=2.7 in /home/codespace/.local/lib/python3.10/site-packages (from cookiecutter->easyfs[cookiecutter]==0.0.3->devcontainer-contrib>=0.0.13->-r requirements-tests.txt (line 6)) (3.1.2)
+Collecting python-slugify>=4.0.0
+  Downloading python_slugify-7.0.0-py2.py3-none-any.whl (9.4 kB)
+Collecting jinja2-time>=0.2.0
+  Downloading jinja2_time-0.2.0-py2.py3-none-any.whl (6.4 kB)
+Collecting chardet>=3.0.2
+  Downloading chardet-5.1.0-py3-none-any.whl (199 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 199.1/199.1 kB 3.0 MB/s eta 0:00:00
+Collecting cachetools<6.0,>=2.0.0
+  Downloading cachetools-5.2.0-py3-none-any.whl (9.3 kB)
+Collecting rsa<5,>=3.1.4
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting pyasn1-modules>=0.2.1
+  Downloading pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.3/155.3 kB 3.4 MB/s eta 0:00:00
+Requirement already satisfied: MarkupSafe>=2.0 in /home/codespace/.local/lib/python3.10/site-packages (from Jinja2<4.0.0,>=2.7->cookiecutter->easyfs[cookiecutter]==0.0.3->devcontainer-contrib>=0.0.13->-r requirements-tests.txt (line 6)) (2.1.1)
+Requirement already satisfied: arrow in /home/codespace/.local/lib/python3.10/site-packages (from jinja2-time>=0.2.0->cookiecutter->easyfs[cookiecutter]==0.0.3->devcontainer-contrib>=0.0.13->-r requirements-tests.txt (line 6)) (1.2.3)
+Collecting text-unidecode>=1.3
+  Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.2/78.2 kB 3.5 MB/s eta 0:00:00
+Collecting pyasn1<0.5.0,>=0.4.6
+  Downloading pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.1/77.1 kB 3.1 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.7.0 in /home/codespace/.local/lib/python3.10/site-packages (from arrow->jinja2-time>=0.2.0->cookiecutter->easyfs[cookiecutter]==0.0.3->devcontainer-contrib>=0.0.13->-r requirements-tests.txt (line 6)) (2.8.2)
+Building wheels for collected packages: gpustat, flatdict
+  Building wheel for gpustat (setup.py): started
+  Building wheel for gpustat (setup.py): finished with status 'done'
+  Created wheel for gpustat: filename=gpustat-1.0.0-py3-none-any.whl size=19887 sha256=eaeaf2cb982d889ccf1d9cb0a2747dba7cc83968a18e2224d241d242b143e688
+  Stored in directory: /home/codespace/.cache/pip/wheels/ff/6f/e4/a4ad313e84cc4786f48fb7196aae415c5640c6fa43f9aabcd4
+  Building wheel for flatdict (setup.py): started
+  Building wheel for flatdict (setup.py): finished with status 'done'
+  Created wheel for flatdict: filename=flatdict-4.0.1-py3-none-any.whl size=6946 sha256=a772c703e96f926ab575ea5a5077d39f5673ddce67f54908637811c08ef81ba4
+  Stored in directory: /home/codespace/.cache/pip/wheels/5d/01/72/b5541b1fbf6e3ec5a4fb0cfc6cb0af465d2024ff00721f3a73
+Successfully built gpustat flatdict
+Installing collected packages: text-unidecode, pyasn1, py-spy, opencensus-context, nvidia-ml-py, msgpack, flatdict, distlib, colorful, tqdm, smart-open, rsa, python-slugify, pydantic, pyasn1-modules, protobuf, prometheus-client, pluggy, multidict, more_itertools, iniconfig, grpcio, fsspec, frozenlist, filelock, exceptiongroup, distro, click, chardet, cachetools, blessed, async-timeout, yarl, virtualenv, typer, pytest, gpustat, googleapis-common-protos, google-auth, easyfs, binaryornot, aiosignal, ray, pytest-skip-markers, pytest-helpers-namespace, jinja2-time, google-api-core, aiohttp, pytest-shell-utilities, opencensus, cookiecutter, aiohttp-cors, devcontainer-contrib
+  Attempting uninstall: prometheus-client
+    Found existing installation: prometheus-client 0.15.0
+    Uninstalling prometheus-client-0.15.0:
+      Successfully uninstalled prometheus-client-0.15.0
+Successfully installed aiohttp-3.8.3 aiohttp-cors-0.7.0 aiosignal-1.3.1 async-timeout-4.0.2 binaryornot-0.4.4 blessed-1.19.1 cachetools-5.2.0 chardet-5.1.0 click-8.1.3 colorful-0.5.5 cookiecutter-2.1.1 devcontainer-contrib-0.0.13 distlib-0.3.6 distro-1.8.0 easyfs-0.0.3 exceptiongroup-1.1.0 filelock-3.9.0 flatdict-4.0.1 frozenlist-1.3.3 fsspec-2022.11.0 google-api-core-2.11.0 google-auth-2.15.0 googleapis-common-protos-1.57.1 gpustat-1.0.0 grpcio-1.51.1 iniconfig-2.0.0 jinja2-time-0.2.0 more_itertools-9.0.0 msgpack-1.0.4 multidict-6.0.4 nvidia-ml-py-11.495.46 opencensus-0.11.0 opencensus-context-0.1.3 pluggy-1.0.0 prometheus-client-0.13.1 protobuf-4.21.12 py-spy-0.3.14 pyasn1-0.4.8 pyasn1-modules-0.2.8 pydantic-1.10.4 pytest-7.2.0 pytest-helpers-namespace-2021.12.29 pytest-shell-utilities-1.7.0 pytest-skip-markers-1.4.0 python-slugify-7.0.0 ray-2.2.0 rsa-4.9 smart-open-6.3.0 text-unidecode-1.3 tqdm-4.64.1 typer-0.7.0 virtualenv-20.17.1 yarl-1.8.2
